@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fa;
+}
+header {
+    background: #002244;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: rgb(242, 235, 235);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: rgb(86, 85, 85);
+}
+.hero h1 {
+    font-size: 2.5em;
+}
+.hero span {
+    color: #007bff;
+}
+.shorten-box {
+    margin-top: 20px;
+}
+.shorten-box input {
+    padding: 15px;
+    width: 60%;
+    border: 1px solid #343333;
+    border-radius: 5px;
+}
+.shorten-box button {
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.features, .pricing, .faq {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+    margin: 20px 0;
+}
+.features h2, .pricing h2, .faq h2 {
+    font-size: 2em;
+}
+.feature-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.feature {
+    background: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.plan {
+    background: #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 1.2em;
+}
+.plan.standard {
+    background: #007bff;
+    color: white;
+}
+.faq-box {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    background: #002244;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero {
+    background: #b3b3f3;
+    padding: 50px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cta-btn {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    padding: 40px 20px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    background: rgb(235, 232, 232);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.faq {
+    background: #eef;
+    padding: 40px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
