@@ -1,0 +1,55 @@
+   body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 1280px;
+        height: 450px;
+        border: 2px solid black;
+    }
+    
+    .row1, .row2 {
+        padding: 30px;
+    }
+    
+    .row1 {
+        background-color: white;
+    }
+    
+    .row2 {
+        background-color: #333;
+        color: white;
+    }
+    
+    /* Huckleberry title */
+    .highlight {
+        display: inline-block;
+        background-color: #ffcc00;
+        padding: 5px 10px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    /* Bolded words */
+    .bold-text {
+        font-weight: bold;
+    }
+    
+    /* Second row heading */
+    .highlight-dark {
+        display: inline-block;
+        background-color: #ffcc00;
+        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    

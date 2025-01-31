@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6C7894;
+    margin: 0;
+}
+
+/* Container to center the card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Card Styling */
+.card {
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Badge Styling */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F7D658;
+    padding: 5px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Content Styling */
+.content {
+    padding: 20px;
+}
+
+/* Title and Subtitle */
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.series {
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
